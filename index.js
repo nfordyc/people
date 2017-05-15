@@ -35,4 +35,4 @@ const handleSubmit = ev => {
     ul.appendChild(item2)
 }
 
-personForm.onsubmit = handleSubmit
+personForm.addEventListener('submit',handleSubmit)
